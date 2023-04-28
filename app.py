@@ -1,10 +1,10 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/060ccdaa3c23c62dd5484f6bb58d74491c54bcb99096557fb839abb613baa163")
+@app.route("/8d4116957dd7472e52b6960ff9ba8a7b")
 def poc():
     return "A proof of concept for subdomain takeover."
 
 @app.route("/")
-def home():
+def hello():
     return "200 OK"
